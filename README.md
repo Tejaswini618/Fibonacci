@@ -1,0 +1,14 @@
+# Fibonacci
+n=int(input("enter a interger"))
+a=0
+print(a)
+b=1
+print(b)
+if n==1:
+    print(a)
+else:
+    for i in range(2,n):
+        print(a+b)
+        c=a+b
+        a=b
+        b=c
